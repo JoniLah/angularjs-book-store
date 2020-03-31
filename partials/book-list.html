@@ -7,7 +7,9 @@
     <div>
         <ul class="list-unstyled">
             <li class="book" ng-repeat="book in books | filter:searchStr">
-                <img style="width: 128px; height: 256px;" src={{book.imgUrl}} />
+                <div class="pull-left" style="margin-right: 20px;">
+                    <img style="width: 128px; height: 192px;" src="{{book.imgUrl}}" />
+                </div>
                 <div class="book-details clearfix">
                     <h3>{{book.name}}</h3>
                     <p>Price: {{book.price | currency}}</p>
