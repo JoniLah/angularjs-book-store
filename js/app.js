@@ -51,6 +51,36 @@ myApp.factory("bookService", function() {
             releaseDate: "07-12-2020",
             details: "A random book with random description."
         },
+        {
+            imgUrl: "https://www.bookcoversclub.com/wp-content/uploads/2018/02/book-cover-352.jpg",
+            name: "Wildlife",
+            price: 36.8,
+            rating: 5,
+            binding: "Paperback",
+            publisher: "Wild Life",
+            releaseDate: "11-03-2001",
+            details: "A book about animals"
+        },
+        {
+            imgUrl: "https://i.pinimg.com/originals/1e/c5/df/1ec5df963765d4bcf151467c99d1dae7.jpg",
+            name: "Finding Moana",
+            price: 4.8,
+            rating: 2,
+            binding: "Paperback",
+            publisher: "Rubbish Company",
+            releaseDate: "24-01-1997",
+            details: "A trash book, don't buy! Don't you dare..."
+        },
+        {
+            imgUrl: "https://static.wixstatic.com/media/9c4410_876c178659774d75aa6d9ec9fadfa4a2~mv2_d_1650_2550_s_2.jpg/v1/fill/w_270,h_412,al_c,q_80,usm_0.66_1.00_0.01/WILD%20LIGHT%20EBOOK.webp",
+            name: "Wild Light",
+            price: 99.9,
+            rating: 4,
+            binding: "Paperback",
+            publisher: "Wild Life",
+            releaseDate: "29-02-2004",
+            details: "Our Wild Life book was a bestseller, so we decided to publish a book about Wild Light"
+        },
     ];
 
     return {
